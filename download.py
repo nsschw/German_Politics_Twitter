@@ -17,7 +17,7 @@ def download(user_id, since_id = None):
     #Formatieren der Start- und Endzeit damit nur aktuelle Tweets heruntergeladen werden. Weiterhin sind die heruntergeladenen Tweets mind. 48h online, sodass öff. Metriken auswertbar sind
     dtformat = '%Y-%m-%dT%H:%M:%SZ'
     time = datetime.utcnow()
-    start_time = time - timedelta(days=14)
+    start_time = time - timedelta(days=31)
     end_time = time - timedelta(days=2)
 
     starttime, endtime = start_time.strftime(dtformat), end_time.strftime(dtformat)
