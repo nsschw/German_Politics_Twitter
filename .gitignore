@@ -1,3 +1,3 @@
 .env
-Data/Tweets
-Data/Datasets
+Data/Tweets/*.jsonl
+Data/Datasets/*.xlsx
