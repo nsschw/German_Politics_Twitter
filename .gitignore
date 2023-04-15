@@ -1,3 +1,6 @@
 .env
 Data/Tweets/*.jsonl
 Data/Datasets/*.xlsx
+Data/Datasets/Old*.xlsx
+Data/Datasets/Active*.xlsx
+Data/Datasets/*.pickle
