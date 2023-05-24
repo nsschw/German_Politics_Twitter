@@ -168,7 +168,7 @@ if __name__ == "__main__":
     print("{} Tweets waren doppelt im Datensatz vorhanden und wurden entfernt.".format(len_vorher-len_nachher))
     
     #Bereinigung des Textes
-    df["Text_Clean"] = df.apply(lambda x: clean(x.Text, x.RT_from, x.Reply_To), axis=1)
+    #df["Text_Clean"] = df.apply(lambda x: clean(x.Text, x.RT_from, x.Reply_To), axis=1)
     
     
     #Laden der Metadaten
